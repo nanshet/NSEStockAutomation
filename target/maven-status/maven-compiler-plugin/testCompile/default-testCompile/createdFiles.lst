@@ -1,0 +1,5 @@
+com\nse\base\BaseTest.class
+com\nse\runner\TestRunner.class
+com\nse\tests\StockSelection.class
+com\nse\page\HomePage.class
+com\nse\page\StockPage.class

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-10T15:14:38 GST" name="Stock Automation Suite" finished-at="2025-04-10T15:16:04 GST" duration-ms="85801">
+    <groups>
+    </groups>
+    <test started-at="2025-04-10T15:14:38 GST" name="Chrome Test" finished-at="2025-04-10T15:15:03 GST" duration-ms="24845">
+      <class name="com.nse.tests.StockSelection">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@3d36e4cd]" started-at="2025-04-10T15:14:38 GST" name="setup" finished-at="2025-04-10T15:14:41 GST" duration-ms="2155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyStock(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@3d36e4cd]" started-at="2025-04-10T15:14:41 GST" name="verifyStock" data-provider="stocks" finished-at="2025-04-10T15:14:48 GST" duration-ms="7354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TATAMOTORS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStock -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nse.tests.StockSelection@3d36e4cd]" started-at="2025-04-10T15:14:48 GST" name="teardown" finished-at="2025-04-10T15:14:49 GST" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@3d36e4cd]" started-at="2025-04-10T15:14:49 GST" name="setup" finished-at="2025-04-10T15:14:50 GST" duration-ms="1119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyStock(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@3d36e4cd]" started-at="2025-04-10T15:14:50 GST" name="verifyStock" data-provider="stocks" finished-at="2025-04-10T15:14:56 GST" duration-ms="5998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[COALINDIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStock -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nse.tests.StockSelection@3d36e4cd]" started-at="2025-04-10T15:14:56 GST" name="teardown" finished-at="2025-04-10T15:14:56 GST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@3d36e4cd]" started-at="2025-04-10T15:14:56 GST" name="setup" finished-at="2025-04-10T15:14:57 GST" duration-ms="1182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyStock(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@3d36e4cd]" started-at="2025-04-10T15:14:57 GST" name="verifyStock" data-provider="stocks" finished-at="2025-04-10T15:15:03 GST" duration-ms="5848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BAJAJFINSV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStock -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nse.tests.StockSelection@3d36e4cd]" started-at="2025-04-10T15:15:03 GST" name="teardown" finished-at="2025-04-10T15:15:03 GST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nse.tests.StockSelection -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2025-04-10T15:15:03 GST" name="Firefox Test" finished-at="2025-04-10T15:15:36 GST" duration-ms="32453">
+      <class name="com.nse.tests.StockSelection">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@258e2e41]" started-at="2025-04-10T15:15:03 GST" name="setup" finished-at="2025-04-10T15:15:06 GST" duration-ms="2836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyStock(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@258e2e41]" started-at="2025-04-10T15:15:06 GST" name="verifyStock" data-provider="stocks" finished-at="2025-04-10T15:15:13 GST" duration-ms="6602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TATAMOTORS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStock -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nse.tests.StockSelection@258e2e41]" started-at="2025-04-10T15:15:13 GST" name="teardown" finished-at="2025-04-10T15:15:14 GST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@258e2e41]" started-at="2025-04-10T15:15:14 GST" name="setup" finished-at="2025-04-10T15:15:17 GST" duration-ms="2720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyStock(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@258e2e41]" started-at="2025-04-10T15:15:17 GST" name="verifyStock" data-provider="stocks" finished-at="2025-04-10T15:15:24 GST" duration-ms="7210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[COALINDIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStock -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nse.tests.StockSelection@258e2e41]" started-at="2025-04-10T15:15:24 GST" name="teardown" finished-at="2025-04-10T15:15:25 GST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@258e2e41]" started-at="2025-04-10T15:15:25 GST" name="setup" finished-at="2025-04-10T15:15:27 GST" duration-ms="2507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyStock(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@258e2e41]" started-at="2025-04-10T15:15:27 GST" name="verifyStock" data-provider="stocks" finished-at="2025-04-10T15:15:35 GST" duration-ms="7614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BAJAJFINSV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStock -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nse.tests.StockSelection@258e2e41]" started-at="2025-04-10T15:15:35 GST" name="teardown" finished-at="2025-04-10T15:15:36 GST" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nse.tests.StockSelection -->
+    </test> <!-- Firefox Test -->
+    <test started-at="2025-04-10T15:15:36 GST" name="Edge Test" finished-at="2025-04-10T15:16:04 GST" duration-ms="28446">
+      <class name="com.nse.tests.StockSelection">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@55a561cf]" started-at="2025-04-10T15:15:36 GST" name="setup" finished-at="2025-04-10T15:15:37 GST" duration-ms="975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyStock(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@55a561cf]" started-at="2025-04-10T15:15:37 GST" name="verifyStock" data-provider="stocks" finished-at="2025-04-10T15:15:44 GST" duration-ms="7169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TATAMOTORS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStock -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nse.tests.StockSelection@55a561cf]" started-at="2025-04-10T15:15:44 GST" name="teardown" finished-at="2025-04-10T15:15:46 GST" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@55a561cf]" started-at="2025-04-10T15:15:46 GST" name="setup" finished-at="2025-04-10T15:15:47 GST" duration-ms="1134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyStock(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@55a561cf]" started-at="2025-04-10T15:15:47 GST" name="verifyStock" data-provider="stocks" finished-at="2025-04-10T15:15:54 GST" duration-ms="7068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[COALINDIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStock -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nse.tests.StockSelection@55a561cf]" started-at="2025-04-10T15:15:54 GST" name="teardown" finished-at="2025-04-10T15:15:55 GST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@55a561cf]" started-at="2025-04-10T15:15:55 GST" name="setup" finished-at="2025-04-10T15:15:56 GST" duration-ms="1022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyStock(java.lang.String)[pri:0, instance:com.nse.tests.StockSelection@55a561cf]" started-at="2025-04-10T15:15:56 GST" name="verifyStock" data-provider="stocks" finished-at="2025-04-10T15:16:03 GST" duration-ms="6481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BAJAJFINSV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStock -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nse.tests.StockSelection@55a561cf]" started-at="2025-04-10T15:16:03 GST" name="teardown" finished-at="2025-04-10T15:16:04 GST" duration-ms="1557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nse.tests.StockSelection -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Stock Automation Suite -->
+</testng-results>
