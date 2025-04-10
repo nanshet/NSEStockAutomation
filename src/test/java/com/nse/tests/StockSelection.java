@@ -8,6 +8,7 @@ import com.nse.page.HomePage;
 import com.nse.page.StockPage;
 import com.nse.utils.Screenshot;
 
+
 public class StockSelection extends BaseTest{
 	
 	@Test(dataProvider = "stocks")

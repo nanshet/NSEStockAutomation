@@ -35,6 +35,8 @@ public class HomePage {
     	
     	
     	driver.get("https://www.nseindia.com/");
+    	WebElement search = driver.findElement(searchBox);
+    	wait.until(ExpectedConditions.visibilityOfElementLocated(searchBox));
         wait.until(ExpectedConditions.titleContains("NSE"));
         logger.info("Navigate to URL successfully");
         System.out.println("Navigate to URL successfully");
