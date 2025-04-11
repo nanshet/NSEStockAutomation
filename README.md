@@ -17,6 +17,7 @@ This is a Selenium-based automation framework for validating stock details (pric
    cmd
    git clone https://github.com/nanshet/NSEStockAutomation.git
    cd NSEStockAutomation
+   git pull [you will get the latest changes from Main branch]
    
 2  **Import as Maven project**
 
@@ -24,7 +25,9 @@ This is a Selenium-based automation framework for validating stock details (pric
    Choose Import > Maven > Existing Maven Project
    
 3 **Install Dependencies Maven will automatically download required dependencies from pom.xml.**
-
+  -If you are still facing issues with libraries just Navigate to Project-> Clean/Build the Project
+  One more thing you can try is Right click on Main Project --> Run As--> Maven Install
+  
 4 **Configure Browsers**
 
   Make sure your system has Chrome, Firefox, or Edge installed.
